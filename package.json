@@ -15,6 +15,8 @@
   "dependencies": {
     "jest-editor-support": "^30.1.0"
   },
-  "bin": "./bin/index.js",
+  "bin": {
+    "jest-parser-cli": "./bin/index.js"
+  },
   "type": "module"
 }
