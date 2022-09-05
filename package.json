@@ -1,0 +1,20 @@
+{
+  "name": "jest-parser-cli",
+  "version": "1.0.0",
+  "description": "Parse test file for jest and vitest",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jest",
+    "parser"
+  ],
+  "author": "Marco Ilari (marilari88@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "jest-editor-support": "^30.1.0"
+  },
+  "bin": "./bin/index.js",
+  "type": "module"
+}
