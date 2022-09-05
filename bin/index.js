@@ -8,4 +8,4 @@ if (!args[0]) {
 }
 
 const a = parse(args[0])
-console.log(a)
+console.log(JSON.stringify(a))
